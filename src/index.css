@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* RESET unwanted defaults */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  display: block; /* override any unwanted flex */
+  background: #fff;
+}
+
+/* Remove max-width from root if coming from somewhere */
+#root {
+  max-width: none;
+}

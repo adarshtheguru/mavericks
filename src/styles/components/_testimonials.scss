@@ -1,0 +1,218 @@
+@import '../variables';
+@import '../mixins';
+
+.testimonials {
+  @include section-padding;
+  background: $color-primary;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image:
+      radial-gradient(circle at 10% 20%, rgba(176, 85, 129, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 90% 80%, rgba(212, 175, 55, 0.08) 0%, transparent 50%);
+    z-index: 0;
+  }
+
+  &__container {
+    @include container;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__header {
+    text-align: center;
+    margin-bottom: $spacing-3xl;
+  }
+
+  &__subtitle {
+    color: $color-accent;
+    font-weight: $font-weight-semibold;
+    font-size: $font-size-sm;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__title {
+    font-size: $font-size-h2;
+    margin-bottom: $spacing-md;
+
+    .highlight {
+      @include text-gradient;
+    }
+  }
+
+  &__description {
+    color: $color-text-muted;
+    font-size: $font-size-lg;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $spacing-lg;
+
+    @include respond-to(md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include respond-to(lg) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+.testimonial-card {
+  @include card;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+  position: relative;
+  padding: $spacing-xl;
+
+  &__quote-icon {
+    position: absolute;
+    top: $spacing-lg;
+    right: $spacing-lg;
+    font-size: 3rem;
+    color: rgba(176, 85, 129, 0.2);
+  }
+
+  &__rating {
+    display: flex;
+    gap: $spacing-xs;
+    color: $color-gold;
+    font-size: $font-size-lg;
+  }
+
+  &__content {
+    color: $color-text-muted;
+    line-height: 1.8;
+    font-size: $font-size-sm;
+    flex-grow: 1;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__author {
+    display: flex;
+    align-items: center;
+    gap: $spacing-md;
+    padding-top: $spacing-md;
+    border-top: 1px solid $color-border;
+  }
+
+  &__avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: $border-radius-full;
+    object-fit: cover;
+    border: 2px solid $color-accent;
+  }
+
+  &__avatar-placeholder {
+    width: 50px;
+    height: 50px;
+    border-radius: $border-radius-full;
+    @include flex-center;
+    background: linear-gradient(135deg, $color-accent 0%, $color-gold 100%);
+    color: $color-white;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-lg;
+  }
+
+  &__author-info {
+    flex: 1;
+  }
+
+  &__name {
+    font-weight: $font-weight-semibold;
+    color: $color-text;
+    margin-bottom: $spacing-xs / 2;
+  }
+
+  &__position {
+    color: $color-text-muted;
+    font-size: $font-size-sm;
+  }
+
+  &__company {
+    color: $color-accent;
+    font-size: $font-size-sm;
+    font-weight: $font-weight-medium;
+  }
+
+  &:hover {
+    transform: translateY(-10px);
+    border-color: $color-accent;
+    box-shadow: $shadow-accent;
+  }
+}
+
+// Testimonial Carousel (if needed)
+.testimonial-carousel {
+  position: relative;
+
+  &__controls {
+    @include flex-center;
+    gap: $spacing-md;
+    margin-top: $spacing-xl;
+  }
+
+  &__btn {
+    width: 50px;
+    height: 50px;
+    @include flex-center;
+    background: $color-secondary;
+    border: 1px solid $color-border;
+    border-radius: $border-radius-full;
+    color: $color-text;
+    cursor: pointer;
+    transition: $transition-base;
+
+    &:hover:not(:disabled) {
+      background: $color-accent;
+      color: $color-white;
+      border-color: $color-accent;
+      transform: scale(1.1);
+    }
+
+    &:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+  }
+
+  &__indicators {
+    @include flex-center;
+    gap: $spacing-sm;
+    margin-top: $spacing-md;
+  }
+
+  &__indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: $border-radius-full;
+    background: $color-border;
+    cursor: pointer;
+    transition: $transition-base;
+
+    &.active {
+      background: $color-accent;
+      width: 30px;
+    }
+
+    &:hover {
+      background: $color-accent;
+    }
+  }
+}

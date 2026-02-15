@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Rajesh Kumar",
+    "position": "CEO",
+    "company": "Tech Innovators Pvt. Ltd.",
+    "avatar": "",
+    "rating": 5,
+    "text": "Mavericks transformed our product launch into an unforgettable experience. Their attention to detail and seamless execution exceeded our expectations. The event generated massive buzz and drove exceptional results for our brand.",
+    "category": "Corporate Event"
+  },
+  {
+    "id": 2,
+    "name": "Priya Sharma",
+    "position": "Marketing Director",
+    "company": "Fashion Hub India",
+    "avatar": "",
+    "rating": 5,
+    "text": "Working with Mavericks on our social media campaigns was a game-changer. Their creative content and strategic approach helped us triple our engagement in just three months. Highly recommended!",
+    "category": "Digital Marketing"
+  },
+  {
+    "id": 3,
+    "name": "Amit Patel",
+    "position": "Founder",
+    "company": "StartUp Ventures",
+    "avatar": "",
+    "rating": 5,
+    "text": "The team at Mavericks handled our conference with utmost professionalism. From venue selection to speaker coordination, everything was flawless. They truly understand the meaning of end-to-end execution.",
+    "category": "MICE"
+  },
+  {
+    "id": 4,
+    "name": "Neha Gupta",
+    "position": "Brand Manager",
+    "company": "Lifestyle Brands Co.",
+    "avatar": "",
+    "rating": 5,
+    "text": "Our wedding was nothing short of magical, thanks to Mavericks. They brought our vision to life with beautiful décor, seamless coordination, and incredible attention to every little detail. Couldn't have asked for better!",
+    "category": "Wedding"
+  },
+  {
+    "id": 5,
+    "name": "Vikram Singh",
+    "position": "Event Coordinator",
+    "company": "Corporate Solutions Ltd.",
+    "avatar": "",
+    "rating": 5,
+    "text": "Mavericks delivered an outstanding concert experience. The sound, lighting, and overall production quality were top-notch. The crowd loved it, and so did we. Will definitely work with them again!",
+    "category": "Entertainment"
+  },
+  {
+    "id": 6,
+    "name": "Anita Desai",
+    "position": "CMO",
+    "company": "Retail Giants India",
+    "avatar": "",
+    "rating": 5,
+    "text": "Their OOH campaign strategy was brilliant. The billboard placements were strategic and eye-catching, resulting in a significant increase in foot traffic to our stores. Mavericks knows how to make brands visible!",
+    "category": "Traditional Marketing"
+  }
+]

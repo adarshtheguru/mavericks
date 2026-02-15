@@ -1,0 +1,19 @@
+// Mavericks Marketing & Events - Main SCSS
+
+// Base Imports
+@import './variables';
+@import './mixins';
+@import './base';
+
+// Component Imports
+@import './components/common';
+@import './components/header';
+@import './components/footer';
+@import './components/banner';
+@import './components/services';
+@import './components/testimonials';
+@import './components/blog';
+
+// Page Imports
+@import './pages/home';
+@import './pages/blog-page';

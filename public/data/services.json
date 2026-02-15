@@ -1,0 +1,223 @@
+{
+  "categories": [
+    {
+      "id": "digital",
+      "name": "The Digital Landscape",
+      "shortName": "Online",
+      "description": "From viral content to mass media reach, we dominate the digital space.",
+      "icon": "laptop",
+      "services": [
+        {
+          "id": 1,
+          "title": "Social Media Management",
+          "description": "Creating viral-ready content, community management, and brand storytelling across Instagram, LinkedIn, X, and Facebook.",
+          "icon": "share2",
+          "features": [
+            "Content creation and curation",
+            "Community management",
+            "Brand storytelling",
+            "Multi-platform strategy"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Performance Marketing",
+          "description": "ROI-focused ad campaigns on Meta and Google Ads. We target the right eyes to drive conversions, not just clicks.",
+          "icon": "target",
+          "features": [
+            "Meta Ads campaigns",
+            "Google Ads management",
+            "Conversion optimization",
+            "ROI tracking & reporting"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "SEO & Digital Presence",
+          "description": "Dominating search results and managing online reputation to keep you discoverable.",
+          "icon": "search",
+          "features": [
+            "Search engine optimization",
+            "Online reputation management",
+            "Local SEO",
+            "Technical SEO audits"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Influencer Marketing",
+          "description": "Connecting your brand with voices that matter to amplify your message.",
+          "icon": "users",
+          "features": [
+            "Influencer identification",
+            "Campaign management",
+            "Content collaboration",
+            "Performance tracking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "traditional",
+      "name": "Traditional & On-Ground",
+      "shortName": "Offline",
+      "description": "Mass media reach through strategic placement and targeted marketing.",
+      "icon": "billboard",
+      "services": [
+        {
+          "id": 5,
+          "title": "OOH (Out of Home)",
+          "description": "Strategic placement of billboards, transit media, and hoardings for maximum brand recall.",
+          "icon": "map",
+          "features": [
+            "Billboard advertising",
+            "Transit media",
+            "Hoarding placement",
+            "Strategic location selection"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "ATL (Above The Line)",
+          "description": "Mass media reach through Print, Radio, and TV partnerships to build broad brand awareness.",
+          "icon": "tv",
+          "features": [
+            "Print advertising",
+            "Radio campaigns",
+            "Television commercials",
+            "Media buying & planning"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "BTL (Below The Line)",
+          "description": "Targeted direct marketing, mall activations, leaflet distribution, and point-of-sale promotions that drive immediate interaction.",
+          "icon": "shopping-bag",
+          "features": [
+            "Direct marketing",
+            "Mall activations",
+            "Leaflet distribution",
+            "Point-of-sale promotions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "experiential",
+      "name": "Experiential Event Management",
+      "shortName": "Experiential",
+      "description": "Moments that linger. Experiences that inspire. From concept to execution.",
+      "icon": "star",
+      "services": [
+        {
+          "id": 8,
+          "title": "MICE",
+          "description": "End-to-end management for meetings, incentives, conferences, and exhibitions.",
+          "icon": "briefcase",
+          "features": [
+            "Meeting management",
+            "Incentive programs",
+            "Conference organization",
+            "Exhibition setup"
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Product Launches",
+          "description": "High-impact reveals that get the industry talking and create memorable brand moments.",
+          "icon": "box",
+          "features": [
+            "Launch strategy",
+            "Event production",
+            "Media coordination",
+            "Post-launch engagement"
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Seminars & Workshops",
+          "description": "Professional setups for knowledge sharing with seamless execution.",
+          "icon": "book-open",
+          "features": [
+            "Venue selection",
+            "Technical setup",
+            "Speaker coordination",
+            "Attendee management"
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Live Shows & Concerts",
+          "description": "Large-scale musical productions, artist management, and venue logistics.",
+          "icon": "music",
+          "features": [
+            "Artist booking",
+            "Stage production",
+            "Sound & lighting",
+            "Crowd management"
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Stand-Up Comedy",
+          "description": "Curating laughter with top-tier talent management and show production.",
+          "icon": "mic",
+          "features": [
+            "Comedian booking",
+            "Show production",
+            "Venue management",
+            "Ticketing & promotion"
+          ]
+        },
+        {
+          "id": 13,
+          "title": "Club Events",
+          "description": "Themed nights, DJ bookings, and high-energy party experiences.",
+          "icon": "headphones",
+          "features": [
+            "Theme development",
+            "DJ & artist booking",
+            "Décor & ambiance",
+            "Guest list management"
+          ]
+        },
+        {
+          "id": 14,
+          "title": "Dance & Cultural Shows",
+          "description": "Choreography, stage setup, and lighting for visual spectacles.",
+          "icon": "activity",
+          "features": [
+            "Choreography",
+            "Stage design",
+            "Lighting design",
+            "Costume coordination"
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Bespoke Weddings",
+          "description": "From 'Yes' to 'I Do.' Venue sourcing, décor, catering, and guest management for your dream day.",
+          "icon": "heart",
+          "features": [
+            "Venue sourcing",
+            "Décor & design",
+            "Catering management",
+            "Guest coordination"
+          ]
+        },
+        {
+          "id": 16,
+          "title": "Private Parties",
+          "description": "Birthdays, anniversaries, and exclusive gatherings tailored to your taste.",
+          "icon": "gift",
+          "features": [
+            "Theme & concept",
+            "Venue booking",
+            "Entertainment",
+            "Catering & beverages"
+          ]
+        }
+      ]
+    }
+  ]
+}

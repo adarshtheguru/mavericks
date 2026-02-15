@@ -1,0 +1,79 @@
+{
+  "name": "Mavericks Marketing & Events",
+  "tagline": "Where Vision Meets Execution",
+  "description": "We don't just run campaigns; we build ecosystems. Our integrated approach ensures your brand speaks the same language, whether on a mobile screen or a city billboard. From viral content to mass media reach, we deliver cohesive strategies where your offline presence fuels your online growth, and vice versa.",
+  "logo": "/images/logo.png",
+  "contact": {
+    "address": {
+      "line1": "UBI Building",
+      "line2": "Sigra-Mehmoorganj Road",
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "full": "UBI Building, Sigra-Mehmoorganj Road, Varanasi"
+    },
+    "phone": [
+      "+91-8765620009",
+      "+91-9569397191"
+    ],
+    "email": "business@maverickme.in",
+    "website": "https://www.maverickme.in"
+  },
+  "social": {
+    "facebook": "https://facebook.com/mavericksme",
+    "instagram": "https://instagram.com/mavericksme",
+    "twitter": "https://twitter.com/mavericksme",
+    "linkedin": "https://linkedin.com/company/mavericksme"
+  },
+  "usps": [
+    {
+      "id": 1,
+      "title": "One Point of Contact",
+      "description": "No more juggling five different agencies. We handle the ads, the billboards, and the launch party—all under one roof.",
+      "icon": "handshake"
+    },
+    {
+      "id": 2,
+      "title": "Data-Driven Creativity",
+      "description": "We combine artistic flair with hard analytics to ensure maximum ROI. Every decision is backed by insights.",
+      "icon": "chart"
+    },
+    {
+      "id": 3,
+      "title": "End-to-End Execution",
+      "description": "From the initial scratchpad idea to the final post-event report, we handle it all with precision and passion.",
+      "icon": "rocket"
+    }
+  ],
+  "about": {
+    "title": "We're Your Strategic Partner in Growth",
+    "description": "We're not just another agency—we're your strategic partner in growth. With a unique blend of digital expertise and live event mastery, we deliver campaigns that resonate and experiences that inspire. Whether you're launching a product, building brand awareness, or celebrating a milestone, we bring the vision, execution, and energy to make it unforgettable.",
+    "mission": "To create meaningful connections between brands and their audiences through innovative marketing strategies and unforgettable experiences.",
+    "vision": "To be the leading integrated marketing and events agency that transforms visions into reality.",
+    "values": [
+      "Innovation",
+      "Excellence",
+      "Integrity",
+      "Collaboration",
+      "Results-Driven"
+    ]
+  },
+  "stats": [
+    {
+      "value": "500+",
+      "label": "Events Executed"
+    },
+    {
+      "value": "200+",
+      "label": "Happy Clients"
+    },
+    {
+      "value": "50+",
+      "label": "Team Members"
+    },
+    {
+      "value": "10+",
+      "label": "Years Experience"
+    }
+  ]
+}
