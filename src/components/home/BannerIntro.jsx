@@ -15,6 +15,8 @@ const BannerIntro = () => {
       <div className="banner__container">
         <div className="banner__content">
           <h1 className="banner__title">
+            Mavericks <span className="highlight">Marketing</span> & Events
+            <br />
             Where <span className="highlight">Vision</span> Meets <span className="highlight">Execution</span>
           </h1>
 

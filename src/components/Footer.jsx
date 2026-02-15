@@ -101,8 +101,6 @@ const Footer = () => {
                 <HiPhone className="icon" />
                 <div>
                   <a href="tel:+918765620009">+91-8765620009</a>
-                  <br />
-                  <a href="tel:+919569397191">+91-9569397191</a>
                 </div>
               </div>
               <div className="footer__contact-item">
