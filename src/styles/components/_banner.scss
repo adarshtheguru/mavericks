@@ -141,7 +141,7 @@
 
   &__scroll {
     position: absolute;
-    bottom: $spacing-lg;
+    bottom: -3rem;
     left: 50%;
     transform: translateX(-50%);
     @include flex-column-center;
