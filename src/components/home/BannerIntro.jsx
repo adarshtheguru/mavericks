@@ -14,11 +14,14 @@ const BannerIntro = () => {
     <section className="banner">
       <div className="banner__container">
         <div className="banner__content">
-          <h1 className="banner__title">
+          <div>
+            <h1 className="banner__title">
             Mavericks <span className="highlight">Marketing</span> & Events
-            <br />
-            Where <span className="highlight">Vision</span> Meets <span className="highlight">Execution</span>
           </h1>
+          <h2 className='banner__title2'>
+            Where <span className="highlight">Vision</span> Meets <span className="highlight">Execution</span>
+          </h2>
+          </div>
 
           <p className="banner__subtitle">
             360° Marketing Solutions - From the Screen to the Street
